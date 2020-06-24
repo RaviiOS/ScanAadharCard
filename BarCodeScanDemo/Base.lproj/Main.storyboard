@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BarCodeScanDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIn-HU-7L9">
+                                <rect key="frame" x="10" y="10" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ksr-iA-4RO"/>
+                                    <constraint firstAttribute="width" constant="44" id="vzF-s6-d3q"/>
+                                </constraints>
+                                <state key="normal" image="Cancel"/>
+                                <connections>
+                                    <action selector="retry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wt-eI-eME"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DuS-Ga-GiR" customClass="ScannerOverlayView" customModule="BarCodeScanDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="54" width="320" height="514"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DuS-Ga-GiR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3vK-fS-MM4"/>
+                            <constraint firstItem="DuS-Ga-GiR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="S6Y-gX-0Eg"/>
+                            <constraint firstItem="DIn-HU-7L9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Vgy-5c-SdT"/>
+                            <constraint firstItem="DuS-Ga-GiR" firstAttribute="top" secondItem="DIn-HU-7L9" secondAttribute="bottom" id="aKQ-Qv-0DE"/>
+                            <constraint firstItem="DIn-HU-7L9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="iiy-Po-tv7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DuS-Ga-GiR" secondAttribute="bottom" id="wF8-zG-zkl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scannerView" destination="DuS-Ga-GiR" id="5X9-Yw-bnM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cancel" width="16" height="18"/>
+    </resources>
+</document>

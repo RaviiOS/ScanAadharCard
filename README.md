@@ -1,2 +1,2 @@
-# ScanAadharCard
-This is a sample app to demonstrate how to get Aadhar card details using QR code
+# BarCodeScanDemo
+This demo describes how to create custom scan overlay view to scan a bar code.

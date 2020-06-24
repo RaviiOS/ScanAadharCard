@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4519F1792278604200EF3867 /* ScannerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519F1782278604200EF3867 /* ScannerOverlayView.swift */; };
+		4546226722685847007EEDE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546226622685847007EEDE3 /* AppDelegate.swift */; };
+		4546226922685847007EEDE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546226822685847007EEDE3 /* ViewController.swift */; };
+		4546226C22685847007EEDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4546226A22685847007EEDE3 /* Main.storyboard */; };
+		4546226E2268584B007EEDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4546226D2268584B007EEDE3 /* Assets.xcassets */; };
+		454622712268584B007EEDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4546226F2268584B007EEDE3 /* LaunchScreen.storyboard */; };
+		4546227C2268584B007EEDE3 /* BarCodeScanDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546227B2268584B007EEDE3 /* BarCodeScanDemoTests.swift */; };
+		454622872268584B007EEDE3 /* BarCodeScanDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454622862268584B007EEDE3 /* BarCodeScanDemoUITests.swift */; };
+		4546229522686262007EEDE3 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546229422686262007EEDE3 /* Scanner.swift */; };
+		45A3102B24923691002E86AF /* BarCodeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3102A24923691002E86AF /* BarCodeParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		454622782268584B007EEDE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4546225B22685847007EEDE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4546226222685847007EEDE3;
+			remoteInfo = BarCodeScanDemo;
+		};
+		454622832268584B007EEDE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4546225B22685847007EEDE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4546226222685847007EEDE3;
+			remoteInfo = BarCodeScanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4519F1782278604200EF3867 /* ScannerOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerOverlayView.swift; sourceTree = "<group>"; };
+		4546226322685847007EEDE3 /* AadharScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AadharScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4546226622685847007EEDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4546226822685847007EEDE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4546226B22685847007EEDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4546226D2268584B007EEDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454622702268584B007EEDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		454622722268584B007EEDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454622772268584B007EEDE3 /* AadharScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AadharScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4546227B2268584B007EEDE3 /* BarCodeScanDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanDemoTests.swift; sourceTree = "<group>"; };
+		4546227D2268584B007EEDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454622822268584B007EEDE3 /* AadharScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AadharScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		454622862268584B007EEDE3 /* BarCodeScanDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanDemoUITests.swift; sourceTree = "<group>"; };
+		454622882268584B007EEDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4546229422686262007EEDE3 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		45A3102A24923691002E86AF /* BarCodeParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4546226022685847007EEDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454622742268584B007EEDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4546227F2268584B007EEDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4546225A22685847007EEDE3 = {
+			isa = PBXGroup;
+			children = (
+				4546226522685847007EEDE3 /* BarCodeScanDemo */,
+				4546227A2268584B007EEDE3 /* BarCodeScanDemoTests */,
+				454622852268584B007EEDE3 /* BarCodeScanDemoUITests */,
+				4546226422685847007EEDE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4546226422685847007EEDE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4546226322685847007EEDE3 /* AadharScanDemo.app */,
+				454622772268584B007EEDE3 /* AadharScanDemoTests.xctest */,
+				454622822268584B007EEDE3 /* AadharScanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4546226522685847007EEDE3 /* BarCodeScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4546226622685847007EEDE3 /* AppDelegate.swift */,
+				4546226822685847007EEDE3 /* ViewController.swift */,
+				4546226A22685847007EEDE3 /* Main.storyboard */,
+				4546226D2268584B007EEDE3 /* Assets.xcassets */,
+				4546226F2268584B007EEDE3 /* LaunchScreen.storyboard */,
+				454622722268584B007EEDE3 /* Info.plist */,
+				4546229422686262007EEDE3 /* Scanner.swift */,
+				4519F1782278604200EF3867 /* ScannerOverlayView.swift */,
+				45A3102A24923691002E86AF /* BarCodeParser.swift */,
+			);
+			path = BarCodeScanDemo;
+			sourceTree = "<group>";
+		};
+		4546227A2268584B007EEDE3 /* BarCodeScanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4546227B2268584B007EEDE3 /* BarCodeScanDemoTests.swift */,
+				4546227D2268584B007EEDE3 /* Info.plist */,
+			);
+			path = BarCodeScanDemoTests;
+			sourceTree = "<group>";
+		};
+		454622852268584B007EEDE3 /* BarCodeScanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				454622862268584B007EEDE3 /* BarCodeScanDemoUITests.swift */,
+				454622882268584B007EEDE3 /* Info.plist */,
+			);
+			path = BarCodeScanDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4546226222685847007EEDE3 /* AadharScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4546228B2268584B007EEDE3 /* Build configuration list for PBXNativeTarget "AadharScanDemo" */;
+			buildPhases = (
+				4546225F22685847007EEDE3 /* Sources */,
+				4546226022685847007EEDE3 /* Frameworks */,
+				4546226122685847007EEDE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AadharScanDemo;
+			productName = BarCodeScanDemo;
+			productReference = 4546226322685847007EEDE3 /* AadharScanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		454622762268584B007EEDE3 /* AadharScanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4546228E2268584B007EEDE3 /* Build configuration list for PBXNativeTarget "AadharScanDemoTests" */;
+			buildPhases = (
+				454622732268584B007EEDE3 /* Sources */,
+				454622742268584B007EEDE3 /* Frameworks */,
+				454622752268584B007EEDE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454622792268584B007EEDE3 /* PBXTargetDependency */,
+			);
+			name = AadharScanDemoTests;
+			productName = BarCodeScanDemoTests;
+			productReference = 454622772268584B007EEDE3 /* AadharScanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		454622812268584B007EEDE3 /* AadharScanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454622912268584B007EEDE3 /* Build configuration list for PBXNativeTarget "AadharScanDemoUITests" */;
+			buildPhases = (
+				4546227E2268584B007EEDE3 /* Sources */,
+				4546227F2268584B007EEDE3 /* Frameworks */,
+				454622802268584B007EEDE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454622842268584B007EEDE3 /* PBXTargetDependency */,
+			);
+			name = AadharScanDemoUITests;
+			productName = BarCodeScanDemoUITests;
+			productReference = 454622822268584B007EEDE3 /* AadharScanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4546225B22685847007EEDE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ravi Kumar Yaganti";
+				TargetAttributes = {
+					4546226222685847007EEDE3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					454622762268584B007EEDE3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4546226222685847007EEDE3;
+					};
+					454622812268584B007EEDE3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4546226222685847007EEDE3;
+					};
+				};
+			};
+			buildConfigurationList = 4546225E22685847007EEDE3 /* Build configuration list for PBXProject "AadharScanDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4546225A22685847007EEDE3;
+			productRefGroup = 4546226422685847007EEDE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4546226222685847007EEDE3 /* AadharScanDemo */,
+				454622762268584B007EEDE3 /* AadharScanDemoTests */,
+				454622812268584B007EEDE3 /* AadharScanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4546226122685847007EEDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454622712268584B007EEDE3 /* LaunchScreen.storyboard in Resources */,
+				4546226E2268584B007EEDE3 /* Assets.xcassets in Resources */,
+				4546226C22685847007EEDE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454622752268584B007EEDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454622802268584B007EEDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4546225F22685847007EEDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4546226922685847007EEDE3 /* ViewController.swift in Sources */,
+				4546229522686262007EEDE3 /* Scanner.swift in Sources */,
+				4519F1792278604200EF3867 /* ScannerOverlayView.swift in Sources */,
+				4546226722685847007EEDE3 /* AppDelegate.swift in Sources */,
+				45A3102B24923691002E86AF /* BarCodeParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454622732268584B007EEDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4546227C2268584B007EEDE3 /* BarCodeScanDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4546227E2268584B007EEDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454622872268584B007EEDE3 /* BarCodeScanDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		454622792268584B007EEDE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4546226222685847007EEDE3 /* AadharScanDemo */;
+			targetProxy = 454622782268584B007EEDE3 /* PBXContainerItemProxy */;
+		};
+		454622842268584B007EEDE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4546226222685847007EEDE3 /* AadharScanDemo */;
+			targetProxy = 454622832268584B007EEDE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4546226A22685847007EEDE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4546226B22685847007EEDE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4546226F2268584B007EEDE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454622702268584B007EEDE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		454622892268584B007EEDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4546228A2268584B007EEDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4546228C2268584B007EEDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NRXNFLP4V;
+				INFOPLIST_FILE = BarCodeScanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RK.BarCodeScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4546228D2268584B007EEDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NRXNFLP4V;
+				INFOPLIST_FILE = BarCodeScanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RK.BarCodeScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4546228F2268584B007EEDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarCodeScanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SharkDreams.BarCodeScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AadharScanDemo.app/AadharScanDemo";
+			};
+			name = Debug;
+		};
+		454622902268584B007EEDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarCodeScanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SharkDreams.BarCodeScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AadharScanDemo.app/AadharScanDemo";
+			};
+			name = Release;
+		};
+		454622922268584B007EEDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarCodeScanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SharkDreams.BarCodeScanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarCodeScanDemo;
+			};
+			name = Debug;
+		};
+		454622932268584B007EEDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarCodeScanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SharkDreams.BarCodeScanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarCodeScanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4546225E22685847007EEDE3 /* Build configuration list for PBXProject "AadharScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454622892268584B007EEDE3 /* Debug */,
+				4546228A2268584B007EEDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4546228B2268584B007EEDE3 /* Build configuration list for PBXNativeTarget "AadharScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4546228C2268584B007EEDE3 /* Debug */,
+				4546228D2268584B007EEDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4546228E2268584B007EEDE3 /* Build configuration list for PBXNativeTarget "AadharScanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4546228F2268584B007EEDE3 /* Debug */,
+				454622902268584B007EEDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454622912268584B007EEDE3 /* Build configuration list for PBXNativeTarget "AadharScanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454622922268584B007EEDE3 /* Debug */,
+				454622932268584B007EEDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4546225B22685847007EEDE3 /* Project object */;
+}
